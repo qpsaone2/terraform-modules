@@ -9,5 +9,6 @@ resource "azurerm_resource_group" "example_rg" {
     ManagedBy = "TerraformModule"
     Purpose   = "VersionedDemo"
     ModuleVersion = var.module_version # 모듈 버전을 태그로 추가
+    NewFeature    = "true" # 새로운 태그 추가
   }
 }
